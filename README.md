@@ -2,75 +2,124 @@
 
 ## Project Overview
 
-This project is an Excel-based sales data analysis project. It focuses on analyzing sales performance using descriptive statistics, Pivot Tables, slicers, Power Query, Conditional Formatting, dashboarding, and VBA macro automation.
+This project is an Excel-based sales data analysis and reporting project.
+It focuses on analyzing sales performance using Microsoft Excel tools such as descriptive statistics, Pivot Tables, slicers, Power Query, Conditional Formatting, dashboarding, and VBA macro automation.
 
-The goal of this project is to turn raw sales data into useful business insights and generate automated PDF reports based on regions.
+The goal of this project is to transform raw sales data into meaningful business insights and automate regional PDF report generation.
+
+---
 
 ## Objectives
 
 The main objectives of this project were:
 
-* Analyze the dataset using comprehensive descriptive statistics
-* Visualize central tendency and dispersion indicators
-* Create interactive analysis using Pivot Tables and slicers
+* Provide comprehensive descriptive statistics for the dataset
+* Analyze central tendency and dispersion indicators
+* Create visual analysis using charts and slicers
 * Analyze total sales by region and product type using Power Query
-* Apply Conditional Formatting to highlight the top 10% of sales records
-* Create a VBA Macro to generate PDF reports for each region
-* Build an Excel-based reporting workflow from raw data to final business reports
+* Highlight the top 10% of sales records using Conditional Formatting
+* Build an interactive Excel dashboard
+* Create a VBA macro to generate PDF reports by region
+* Display sales amount and count based on product type and sales type in the PDF reports
+
+---
 
 ## What Was Done
 
-In this project, the following tasks were completed:
+### 1. Raw Data Review
 
-### 1. Data Preparation
+The original dataset was reviewed to understand its structure, columns, and business meaning.
 
-The raw dataset was reviewed and prepared for analysis. A cleaned version of the data was created to make the analysis more organized and reliable.
+This step helped identify the key fields needed for analysis, including sales-related columns, region, product type, and sales type.
 
-### 2. Descriptive Statistics
+---
 
-Comprehensive descriptive statistics were calculated for key numerical columns, including sales-related fields. This helped summarize the dataset and understand the distribution of important business metrics.
+### 2. Data Cleaning
 
-### 3. Central Tendency and Dispersion Analysis
+A cleaned version of the dataset was created to make the analysis more organized and reliable.
 
-Measures such as average, minimum, maximum, standard deviation, and other statistical indicators were analyzed and visualized using charts.
+The cleaned data was used as the main source for Pivot Tables, charts, Power Query analysis, and reporting.
 
-A slicer was also used to allow filtering based on sales type.
+---
 
-### 4. Pivot Table Analysis
+### 3. Descriptive Statistics
 
-Pivot Tables were used to summarize and analyze the data from different business perspectives, such as:
+Comprehensive descriptive statistics were calculated for the main numerical fields.
 
-* Sales by region
-* Sales by product type
-* Sales by sales channel
+This included statistical indicators such as:
+
+* Mean
+* Median
+* Minimum
+* Maximum
+* Standard deviation
+* Variance
+* Range
+* Count
+
+These statistics helped summarize the dataset and understand the distribution of sales-related values.
+
+---
+
+### 4. Central Tendency and Dispersion Visualization
+
+Central tendency and dispersion indicators were visualized using charts.
+
+A slicer was also added to filter the analysis based on sales type, making the analysis more interactive and easier to explore.
+
+---
+
+### 5. Pivot Table Analysis
+
+Pivot Tables were used to summarize and analyze the dataset from different business perspectives.
+
+The analysis included:
+
+* Sales performance by region
+* Sales performance by product type
+* Sales performance by sales type
 * Product performance comparison
 * Regional performance comparison
 
-### 5. Power Query Transformation
+---
+
+### 6. Power Query Analysis
 
 Power Query was used to calculate total sales by region and categorize the results based on product type.
 
-This step helped transform and summarize the data in a more structured way for business analysis.
+This made the analysis more structured and helped prepare summarized data for business reporting.
 
-### 6. Conditional Formatting
+---
+
+### 7. Conditional Formatting
 
 Conditional Formatting was applied to highlight the top 10% of sales records in green.
 
-This made it easier to quickly identify high-performing sales records.
+This made it easier to quickly identify the highest-performing sales records.
 
-### 7. Dashboard Creation
+---
+
+### 8. Dashboard Creation
 
 An interactive Excel dashboard was created using Pivot Tables, charts, and slicers.
 
-The dashboard allows users to explore sales performance visually and filter the analysis based on different dimensions.
+The dashboard provides a visual overview of sales performance and allows users to explore the data more effectively.
 
-### 8. VBA Macro Automation
+---
 
-A VBA Macro was created to automatically generate PDF reports for each region.
+### 9. VBA Macro Automation
 
-Each PDF report includes sales amount and count based on product type and sales type.
+A VBA macro was created to automatically generate PDF reports based on region.
+
+Each PDF report includes summarized sales amount and count based on:
+
+* Product type
+* Sales type
+* Region
 
 This automation reduces manual reporting work and makes the reporting process faster and more efficient.
+
+---
 
 ## Tools Used
 
@@ -83,6 +132,8 @@ This automation reduces manual reporting work and makes the reporting process fa
 * VBA Macro
 * PDF Export Automation
 
+---
+
 ## Project Structure
 
 ```text
@@ -91,28 +142,74 @@ sales-performance-analysis-excel/
 ├── README.md
 │
 ├── workbook/
-│   └── excel-sales-analysis.xlsm
+│   └── پروژه تحلیل داده با اکسل.xlsm
 │
 ├── reports/
-│   ├── sample-region-report-1.pdf
-│   ├── sample-region-report-2.pdf
-│   └── sample-region-report-3.pdf
+│   └── PDF reports generated by VBA macro
 │
 └── screenshots/
-    ├── dashboard.png
-    ├── descriptive-statistics.png
-    └── power-query-result.png
+    ├── 1-raw data.png
+    ├── 2-clean data.png
+    ├── 3-Descriptive states.png
+    ├── 4-Dashboard.png
+    ├── 5-PQ Region Product Sales.png
+    ├── 6-Conditional Formatting 10%.png
+    └── 7-PDF Report.png
 ```
 
-## Dashboard Preview
+---
 
-![Dashboard Preview](screenshots/dashboard.png)
+## Project Screenshots
 
-## Reports Preview
+### 1. Raw Data
 
-The `reports` folder contains sample PDF reports generated automatically by the VBA Macro.
+![Raw Data](screenshots/1-raw%20data.png)
 
-Each report is created based on a specific region and includes summarized sales information by product type and sales type.
+---
+
+### 2. Clean Data
+
+![Clean Data](screenshots/2-clean%20data.png)
+
+---
+
+### 3. Descriptive Statistics
+
+![Descriptive Statistics](screenshots/3-Descriptive%20states.png)
+
+---
+
+### 4. Dashboard Preview
+
+![Dashboard Preview](screenshots/4-Dashboard.png)
+
+---
+
+### 5. Power Query Result
+
+![Power Query Result](screenshots/5-PQ%20Region%20Product%20Sales.png)
+
+---
+
+### 6. Conditional Formatting
+
+![Conditional Formatting](screenshots/6-Conditional%20Formatting%2010%25.png)
+
+---
+
+### 7. PDF Report
+
+![PDF Report](screenshots/7-PDF%20Report.png)
+
+---
+
+## Reports
+
+The `reports` folder contains PDF reports generated automatically by the VBA macro.
+
+Each report is created based on a specific region and includes summarized information about sales amount and count by product type and sales type.
+
+---
 
 ## Key Skills Demonstrated
 
@@ -127,6 +224,8 @@ Each report is created based on a specific region and includes summarized sales 
 * Automated PDF Reporting
 * Data Storytelling
 
+---
+
 ## Notes
 
 The main workbook is a macro-enabled Excel file with the `.xlsm` format.
@@ -135,6 +234,10 @@ To use the VBA macro and generate PDF reports, download the workbook and open it
 
 GitHub may not preview Excel macro-enabled files directly, so screenshots and sample PDF reports are included to make the project easier to review.
 
+---
+
 ## Conclusion
 
-This project demonstrates how Microsoft Excel can be used as a complete data analysis and reporting tool. It covers the full workflow from data preparation and statistical analysis to dashboard creation and automated PDF reporting.
+This project demonstrates how Microsoft Excel can be used as a complete data analysis and reporting tool.
+
+It covers the full workflow from raw data preparation and statistical analysis to dashboard creation and automated PDF reporting.
